@@ -1,0 +1,16 @@
+body{
+    background-color:#f1f1f1;
+    
+}
+@font-face {
+    font-family: 'MarsCentra-Bold';
+    src:  url('./Fonts/MarsCentra-Bold\ .otf')
+}
+@font-face {
+    font-family: 'MarsCentra-Book';
+    src:  url('./Fonts/MarsCentra-Book\ .otf')
+}
+@font-face {
+    font-family: 'MarsCentra-Extrabold';
+    src:  url('./Fonts/MarsCentra-Extrabold\ .otf')
+}
