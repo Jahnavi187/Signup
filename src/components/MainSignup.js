@@ -13,7 +13,7 @@ const Signupform = () => {
     }
     return (
         <>
-            <div className='form-container'>
+           
 
                 {/*<div className='form-content-right'>
                     <img className='form-img' src='img/login-bg.jpg' alt='mars' />
@@ -28,12 +28,12 @@ const Signupform = () => {
 
                     (<div className='form-container'>
                         <FormSignup submitForm={submitForm} />
-                        <div className='form-content-right'>
+                        <div className='form-content-right img-box'>
                             <img className='form-img' src='img/login-bg.jpg' alt='mars' />
                         </div>
                     </div>
                     )}
-            </div>
+           
 
             <Footer />
         </>

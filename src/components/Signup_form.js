@@ -68,7 +68,7 @@ const FormLogin = ({ submitForm }) => {
 
                 <span className='form-input-login '>
 
-                    Already have an account? Login <a href='http://localhost:3000/Login'>here</a>
+                    Already have an account?  <a href='http://localhost:3000/'>Login here</a>
                 </span>
             </form>
         </div >
