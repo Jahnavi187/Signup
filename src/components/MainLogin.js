@@ -16,16 +16,16 @@ const Form = () => {
     return (
 
         <>
-            <div className='form-container'>
+           
 
                 
 
                 {isSubmitted ? (<FormSuccess />) :
 
                     (
-                        <div className='form-container'>
+                        <div className='form-container login-box'>
                             <FormLogin submitForm={submitForm} />
-                            <div className='form-content-right'>
+                            <div className='form-content-right img-box'>
                                 <img className='form-img' src='img/login-bg.jpg' alt='mars' />
                             </div>
                         </div>
@@ -34,7 +34,7 @@ const Form = () => {
                     )}
 
 
-            </div>
+           
             <Footer />
         </>
     );
