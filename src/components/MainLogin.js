@@ -10,6 +10,7 @@ const Form = () => {
 
     function submitForm() {
         setIsSubmitted(true);
+      
     }
 
     return (
@@ -17,11 +18,7 @@ const Form = () => {
         <>
             <div className='form-container'>
 
-                {/*{!isSubmitted ? (
-
-                    <FormLogin submitForm={submitForm} />
-                ) : (
-                    <FormSuccess />*/}
+                
 
                 {isSubmitted ? (<FormSuccess />) :
 
@@ -44,3 +41,4 @@ const Form = () => {
 };
 
 export default Form;
+
