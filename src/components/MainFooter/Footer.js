@@ -11,7 +11,7 @@ function Footer() {
                 <div className="me-5" >
 
                     <a href="" className="text-dark me-4">
-                        Home
+                        Hom
                     </a>
                     <a href="" className="text-dark me-4">
                         About Us
